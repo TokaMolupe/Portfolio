@@ -1,11 +1,14 @@
 import Navbar from '../components/Navbar';
 import Main from '../components/Main';
+import AnimatedPage from "../components/Animated";
 
 function Home() {
     return (
         <div>
-            <Navbar />
-            <Main />
+            <AnimatedPage>
+                <Navbar />
+                <Main />
+            </AnimatedPage>
         </div>
     );
 }

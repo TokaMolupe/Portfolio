@@ -1,5 +1,14 @@
+import Project from "../components/Project"
+import AnimatedPage from "../components/Animated";
+
 function Projects() {
-    return <h1>Projects</h1>;
+    return (
+        <div>
+            <AnimatedPage>
+                <Project />
+            </AnimatedPage>
+        </div>
+    );
 }
 
 export default Projects;

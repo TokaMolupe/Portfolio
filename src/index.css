@@ -11,6 +11,10 @@ code {
     monospace;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 
 @tailwind base;
 @tailwind components;
