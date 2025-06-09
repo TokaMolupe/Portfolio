@@ -23,7 +23,7 @@ function Main() {
                 </p>
                 <div className="mt-10">
                     <Link
-                        to="/"
+                        to="/Contact"
                         className="p-4 bg-transparent shadow-md shadow-lime-500 rounded-lg hover:text-lg"
                     >
                         Get In Touch

@@ -27,7 +27,7 @@ function Navbar() {
                     </li>
                     <li className="hover:text-lime-500 hover:underline">
                         <Link
-                            to="/"
+                            to="/Contact"
                             className=""
                         >
                             Contact

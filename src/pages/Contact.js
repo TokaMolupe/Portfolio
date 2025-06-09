@@ -1,9 +1,11 @@
-import Navbar from '../components/Navbar';
+import GetInTouch from "../components/GetInTouch"
+import Footer from "../components/Footer"
 
 function Contact() {
     return (
         <div>
-            <Navbar />
+            <GetInTouch />
+            <Footer />
         </div>
     );
 }
