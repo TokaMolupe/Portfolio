@@ -4,7 +4,7 @@ import { LiaGithub } from "react-icons/lia";
 
 function Socials() {
     return (
-        <div className="flex justify-end items-end mt-10 mr-10">
+        <div className="flex justify-end items-end mt-10 mr-10 hidden md:flex">
             <ul className="flex">
                 <li className="text-3xl">
                     <a href="https://www.linkedin.com/in/toka-molupe-154855365/">
