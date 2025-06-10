@@ -1,6 +1,7 @@
 import Navbar from '../components/Navbar';
 import Main from '../components/Main';
 import AnimatedPage from "../components/Animated";
+import Footer from "../components/Footer"
 
 function Home() {
     return (
@@ -8,6 +9,7 @@ function Home() {
             <AnimatedPage>
                 <Navbar />
                 <Main />
+                <Footer />
             </AnimatedPage>
         </div>
     );

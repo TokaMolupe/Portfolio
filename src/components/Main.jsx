@@ -4,7 +4,7 @@ import { ReactTyped } from "react-typed";
 function Main() {
     return (
         <div>
-            <div className="justify-start items-start p-24 text-white">
+            <div className="justify-start items-start p-20 text-white">
                 <p className="text-[1.3rem] md:text-5xl">
                     Hi, I'm Toka Molupe <br />
                     <ReactTyped
@@ -24,7 +24,7 @@ function Main() {
                 <div className="mt-10">
                     <Link
                         to="/Contact"
-                        className="p-4 bg-transparent shadow-md shadow-lime-500 rounded-lg hover:text-lg hover:bg-lime-500 hover:text-white hover:shadow-lg hover:shadow-black "
+                        className="p-4 bg-transparent shadow-md shadow-lime-500 rounded-lg hover:text-lg hover:bg-lime-500 hover:text-white hover:shadow-lg hover:shadow-black"
                     >
                         Get In Touch
                     </Link>

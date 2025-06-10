@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate, Link } from "react-router-dom";
 import { IoHomeOutline } from "react-icons/io5";
+import Loading from "../components/Loading"
 
 function GetInTouch() {
     const navigate = useNavigate(); // for navigation
@@ -40,7 +41,7 @@ function GetInTouch() {
     }, [submitted, navigate]);
 
     if (submitted) {
-        return <p>✅ Message sent! Redirecting...</p>;
+        return <Loading />;
     }
     return (
         <div class=" flex p-24 items-center justify-center w-full h-screen text-white">
@@ -118,7 +119,7 @@ function GetInTouch() {
                     placeholder="Message:"
                 ></textarea><br />
 
-                <button className="formBtn mb-10 p-4 bg-transparent shadow-lg shadow-lime-500 rounded-lg w-full border-none transition-transform duration-300 hover:scale-105">Send</button>
+                <button className="formBtn mb-10 p-4 bg-transparent shadow-lg shadow-lime-500 rounded-lg w-full border-none transition-transform duration-300 hover:scale-105 hover:bg-lime-500 hover:shadow-black">Send</button>
             </form>
 
         </div>

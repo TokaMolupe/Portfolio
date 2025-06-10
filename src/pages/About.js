@@ -1,5 +1,11 @@
+
+
 function About() {
-    return <h1 className="text-9xl">About Us</h1>;
+    return (
+        <div>
+            <h1>About</h1>
+        </div>
+    );
 }
 
 export default About;

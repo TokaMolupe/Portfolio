@@ -1,11 +1,12 @@
 import GetInTouch from "../components/GetInTouch"
-import Footer from "../components/Footer"
+import AnimatedPage from "../components/Animated";
 
 function Contact() {
     return (
         <div>
-            <GetInTouch />
-            <Footer />
+            <AnimatedPage>
+                <GetInTouch />
+            </AnimatedPage>
         </div>
     );
 }
