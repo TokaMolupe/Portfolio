@@ -1,7 +1,7 @@
-import { CiLogin } from "react-icons/ci";
-import { BsMusicPlayer } from "react-icons/bs";
 import { IoHomeOutline } from "react-icons/io5";
 import { Link } from 'react-router-dom';
+import Player from "../assets/images/Player.png"
+import Page from "../assets/images/Page.png"
 
 function Project() {
 
@@ -15,23 +15,18 @@ function Project() {
                 </Link>
                 <h1 className="text-3xl font-bold text-center hover:underline hover:text-lime-500">Projects</h1>
             </div>
-            <div className="flex justify-between items-center  w-full mt-10 max-w-md mx-auto">
-                <div className="w-2/6 h-80 bg-transparent cursor-pointer text-center">
-                    <a href="https://tokamolupe.github.io/Music-Player-UI-Mockup/" className="h-full w-full block justify-center items-center">
-                        <BsMusicPlayer className="text-[10rem] hover:scale-105 hover:text-lime-500" />
-                    </a>
-                    <p className="mt-5 hover:text-lime-500">
-                        This Music Player UI Might Be Sleek Enough to Replace Spotify! <br />
-
-                    </p>
-                </div>
-                <div className="w-2/6 h-80 bg-transparent cursor-pointer text-center">
-                    <a href="https://tokamolupe.github.io/Sign-Up/" className="h-full w-full block mt-2">
-                        <CiLogin className="text-[10rem] hover:scale-105 hover:text-lime-500" />
-                    </a>
-                    <p className="mt-5 hover:text-lime-5001">
-                        Sign-Up So Smooth, You’ll Want to Create an Account Twice
-                    </p>
+            <div className="flex justify-center items-start mt-10">
+                <div className="w-full max-w-6xl [column-width:200px] gap-4 columns">
+                    <div className="bg-transparent cursor-pointer text-center mb-10 md:mb-0">
+                        <a href="https://tokamolupe.github.io/Music-Player-UI-Mockup/" className="h-full w-full block justify-center items-center">
+                            <img src={Player} alt="Music Player" className="transition-transform duration-300 ease-in-out hover:scale-110 w-[200px]" />
+                        </a> <br />
+                    </div>
+                    <div className="bg-transparent cursor-pointer text-center">
+                        <a href="https://tokamolupe.github.io/Sign-Up/" className="h-full w-full block mt-2">
+                            <img src={Page} alt="Sign Up Page" className="transition-transform duration-300 ease-in-out hover:scale-110 w-[200px]" />
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
