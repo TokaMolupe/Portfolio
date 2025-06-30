@@ -1,9 +1,13 @@
-
+import { IoHomeOutline } from "react-icons/io5";
+import { Link } from 'react-router-dom';
 
 function AboutMe() {
     return (
         <div className="p-6 text-white">
             <div>
+                <Link to="/">
+                    <IoHomeOutline className="text-3xl hover:text-lime-500 cursor-pointer" />
+                </Link>
                 <h1 className="text-3xl font-bold text-center hover:underline hover:text-lime-500">
                     About Me
                 </h1>

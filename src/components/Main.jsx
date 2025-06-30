@@ -24,7 +24,7 @@ function Main() {
                 <div className="mt-10">
                     <Link
                         to="/Contact"
-                        className="p-4 bg-transparent shadow-md shadow-lime-500 rounded-lg hover:text-lg hover:bg-lime-500 hover:text-white hover:shadow-lg hover:shadow-black"
+                        className="p-4 bg-transparent shadow-md shadow-lime-500 rounded-lg hover:bg-lime-500 hover:text-white hover:shadow-lg hover:shadow-black"
                     >
                         Get In Touch
                     </Link>
