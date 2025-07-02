@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import Player from "../assets/images/Player.png"
 import Page from "../assets/images/Page.png"
 import Streamflix from "../assets/images/Streamflix.png"
+import Landing from "../assets/images/Landing.png"
 
 function Project() {
 
@@ -39,6 +40,15 @@ function Project() {
                             <img
                                 src={Streamflix}
                                 alt="Streamflix"
+                                className="transition-transform duration-300 ease-in-out hover:scale-110 w-[200px]"
+                            />
+                        </a>
+                    </div>
+                    <div className="cursor-pointer text-center">
+                        <a href="https://tokamolupe.github.io/Landing-Page-Mockup/">
+                            <img
+                                src={Landing}
+                                alt="Landing Page"
                                 className="transition-transform duration-300 ease-in-out hover:scale-110 w-[200px]"
                             />
                         </a>
