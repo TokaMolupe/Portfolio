@@ -22,7 +22,7 @@ function Project() {
                             <img
                                 src={Player}
                                 alt="Music Player"
-                                className="transition-transform duration-300 ease-in-out hover:scale-110 w-[200px]"
+                                className="transition-transform duration-300 ease-in-out hover:scale-110 w-[150px] md:w-[200px]"
                             />
                         </a>
                     </div>
@@ -31,7 +31,7 @@ function Project() {
                             <img
                                 src={Page}
                                 alt="Sign Up Page"
-                                className="transition-transform duration-300 ease-in-out hover:scale-110 w-[200px]"
+                                className="transition-transform duration-300 ease-in-out hover:scale-110 w-[150px] md:w-[200px]"
                             />
                         </a>
                     </div>
@@ -40,7 +40,7 @@ function Project() {
                             <img
                                 src={Streamflix}
                                 alt="Streamflix"
-                                className="transition-transform duration-300 ease-in-out hover:scale-110 w-[200px]"
+                                className="transition-transform duration-300 ease-in-out hover:scale-110 w-[150px] md:w-[200px]"
                             />
                         </a>
                     </div>
@@ -49,7 +49,7 @@ function Project() {
                             <img
                                 src={Landing}
                                 alt="Landing Page"
-                                className="transition-transform duration-300 ease-in-out hover:scale-110 w-[200px]"
+                                className="transition-transform duration-300 ease-in-out hover:scale-110 w-[150px] md:w-[200px]"
                             />
                         </a>
                     </div>
